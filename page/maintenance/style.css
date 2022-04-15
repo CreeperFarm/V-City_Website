@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.centerimg{
+    text-align: center;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkmagenta;
+    color: white;
+}
