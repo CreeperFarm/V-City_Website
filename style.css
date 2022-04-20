@@ -4,7 +4,7 @@ body{
 .navbar {
     background-color: #333;
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     bottom: 1;
     width: 100%;
   }
@@ -33,9 +33,13 @@ body{
     background-color: darkmagenta;
     color: white;
   }
+
+  .topnav-right {
+    float: right;
+  }
   
   @media screen and (max-width: 600px) {
-    .navbar a {
+    .navbar a, .topnav-right {
       float: none;
       display: block;
       text-align: left;
@@ -55,6 +59,34 @@ h1{
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.c30 {
+  width: 30%;
+  color: white;
+  display: table-cell;
+}
+
+.c70 {
+  width: 70%;
+  color: white;
+  align-items: center;
+  display: table-cell;
+}
+
+* {
+  box-sizing: border-box;
 }
 .footer{
     position: fixed;
